@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
 </head>
+<style>
+    img {
+  opacity: 0.5;
+}
+
+    img:hover{
+  opacity: 1;
+}
+</style>
 <body>
-    <h1>Recipes From the Gods!</h1>
-    <img src="images/Chefhat.jpg">
-    <p>These are some of the most loved recipes in our family, the perfect combination of low calorie, yet <strong>hearty</strong> meals for all ages to enjoy!</p>
-    <ul><li><a href="recipes/somerset_sausage.html">Somerset Sausage</a></li>
-        <li><a href="recipes/Spaghetti_Bolognese.html">Spaghetti Bolognese</a></li>
-        <li><a href="recipes/pizza_nachos.html">Pizza Nachos</a></li>
-    </ul>
+    <div class="title"> Recipes From the Gods!</div>
+    <img class="shrink" src="images/Chefhat.jpg">
+    <p class="hero">These are some of the most loved recipes in our family, the perfect combination of low calorie, yet <strong class="hero">hearty</strong> meals for all ages to enjoy!</p>
+    
+    <div class="container">
+      <a href="recipes/somerset_sausage.html"><img class="Spag" src="images/sausage.jpg" alt="Somerset Sausage"></a>
+      <a href="recipes/Spaghetti_Bolognese.html"><img class="Spag" src="images/Spaghetti_Bol.jpg" alt="Spaghetti Bolognese"></a>
+      <a href="recipes/pizza_nachos.html"><img class="Spag" src="images/pizza_nachos.jpg" alt="Pizza Nachos"></a>
+    </div>
 </body>
 </html>
